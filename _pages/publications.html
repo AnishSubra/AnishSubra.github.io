@@ -1,0 +1,25 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign publications = site.data['portfolio-data'].publications %}
+
+{% if publications and publications.size > 0 %}
+  {% for publication in publications %}
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+      <h2 class="archive__item-title"><a href="{{ publication.website }}">{{ publication.title }}</a></h2>
+      <p>Available at <em>{{ publication.publisher }}</em>{% if publication.release_date %}, {{ publication.release_date | date: "%Y" }}{% endif %}</p>
+      <p>{{ publication.summary }}</p>
+    </article>
+  {% endfor %}
+{% else %}
+  <p>No publications have been added yet.</p>
+{% endif %}
+
+
+

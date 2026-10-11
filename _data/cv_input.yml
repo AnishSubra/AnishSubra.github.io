@@ -1,0 +1,128 @@
+# CV Input Data
+# Fill in your information here and it will be automatically rendered on your CV page
+# Leave sections empty if you don't have entries for them
+
+basics:
+  name: "Anish Subramanian"
+  label: "Researcher & Developer | Machine Learning • Computational Biology • Health Data"
+  email: "anishsubra@gmail.com"
+  phone: ""
+  website: "https://AnishSubra.github.io"
+  summary: "High school researcher at Adlai E. Stevenson High School building machine learning and data tools for biology and healthcare. Published author on diabetes risk prediction; built a clinical trial AI pipeline now in production at Saama Technologies; co-founder of The Compute Initiative, which teaches computer science at rural schools in Tamil Nadu, India."
+  location:
+    city: "Buffalo Grove"
+    region: "Illinois"
+    countryCode: "USA"
+  profiles:
+    - network: "GitHub"
+      username: "AnishSubra"
+      url: "https://github.com/AnishSubra"
+    - network: "LinkedIn"
+      username: "anish-s-17b7a5388"
+      url: "https://www.linkedin.com/in/anish-s-17b7a5388/"
+
+education:
+  - institution: "Adlai E. Stevenson High School"
+    area: "High School Education"
+    studyType: "High School"
+    startDate: "2023"
+    endDate: "2027"
+    gpa: ""        # add GPA if Anish wants it shown
+    courses: []    # add completed courses, e.g. ["AP Computer Science A", "AP Calculus BC"]
+  - institution: "University of Chicago Summer Session"
+    area: "Mathematical and Computational Research in Biological Sciences (Grade: A-)"
+    studyType: "Pre-College"
+    startDate: "2026"
+    endDate: "Summer 2026"
+    gpa: ""
+    courses: []
+  - institution: "Brown University Pre-College"
+    area: "AI, Data Science and Machine Learning"
+    studyType: "Pre-College"
+    startDate: "2025"
+    endDate: "Summer 2025"
+    gpa: ""
+    courses: []
+
+work:
+  - company: "Saama Technologies"
+    position: "Drug Discovery Platform Developer (Paid Intern)"
+    startDate: "Summer 2026"
+    endDate: ""
+    summary: "Built AI tools for clinical trial data validation on Saama's clinical trial platform."
+    highlights:
+      - "Designed AI protocol extraction and a tool to map and validate study data against USDM (Unified Study Definitions Model)"
+      - "Cut processing time from hours to minutes; the pipeline now runs in production"
+      - "Recognized by Saama's Gen AI Practice Lead for schedule-of-activities (SOA) page detection in trial protocols"
+  - company: "Code Ninjas"
+    position: "Code Sensei (Volunteer to Lead Instructor)"
+    startDate: "Grade 10"
+    endDate: "Present"
+    summary: "Teach programming to 50+ K-8 students."
+    highlights:
+      - "Taught programming logic and game design in JavaScript and Scratch"
+      - "Guided students through debugging and gave parents regular progress updates"
+
+skills:
+  - name: "Machine Learning & Data Science"
+    level: "Advanced"
+    keywords:
+      - "Logistic Regression"
+      - "Random Forests"
+      - "Neural Networks"
+      - "Recommender Systems"
+      - "AUROC / AUPRC Evaluation"
+  - name: "Computational Biology"
+    level: "Intermediate"
+    keywords:
+      - "Sequence Alignment"
+      - "Variant Calling"
+      - "ANNOVAR"
+      - "SLURM on Midway3"
+      - "VMD"
+  - name: "Programming & Tools"
+    level: "Advanced"
+    keywords:
+      - "Python"
+      - "R"
+      - "JavaScript"
+      - "HTML"
+      - "Unix"
+      - "GitHub"
+      - "Salesforce"
+
+projects:
+  - name: "Pompe Disease Variant Analysis (UChicago)"
+    description: "Analyzed real human exome data on the Midway3 supercomputer and identified a GAA mutation linked to Pompe disease."
+    highlights:
+      - "Wrote R and Unix workflows and submitted SLURM jobs on Midway3"
+      - "Ran sequence alignment, called SNPs and indels, and annotated variants with ANNOVAR"
+      - "Visualized protein structure in VMD and presented a research poster"
+    keywords:
+      - "Genomics"
+      - "R"
+      - "High-Performance Computing"
+  - name: "Spotify-Style Music Recommender (Brown)"
+    description: "Capstone project combining collaborative and content-based filtering."
+    highlights:
+      - "Built the recommender in Python and analyzed real-world data in R"
+    keywords:
+      - "Python"
+      - "R"
+      - "Recommender Systems"
+  - name: "GiGi's Playhouse Donor Campaign"
+    description: "Lead technology developer for a nonprofit supporting families of people with Down syndrome."
+    highlights:
+      - "Extracted and cleaned Salesforce donor data"
+      - "Drafted 100+ personalized fundraising emails with AI assistance, tying each donation to the child it supported, and checked each one before send"
+    keywords:
+      - "Salesforce"
+      - "Data Cleaning"
+      - "AI"
+
+publications:
+  - name: "Determining the Probability of Diabetes through Machine Learning Models"
+    publisher: "Curieux Academic Review, Issue 5 Part 2, p. 318"
+    releaseDate: "March 2026"
+    website: "https://www.curieuxreview.com/_files/ugd/60ed3c_568b41b466dc44cead5239d74e979263.pdf"
+    summary: "Sole author. Compared logistic regression, random forest, and neural network models on roughly 253,680 patient records; the neural network performed best (AUROC 0.833). Mentored by Dr. Jeremy Bigness (PhD, Computational Biology); peer-review revisions with Dr. Daniel Plymire."
