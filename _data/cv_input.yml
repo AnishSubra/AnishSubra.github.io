@@ -46,7 +46,7 @@ education:
 
 work:
   - company: "Saama Technologies"
-    position: "Drug Discovery Platform Developer (Paid Intern)"
+    position: "Drug Discovery Platform Developer (Intern)"
     startDate: "Summer 2026"
     endDate: ""
     summary: "Built AI tools for clinical trial data validation on Saama's clinical trial platform."
@@ -55,10 +55,10 @@ work:
       - "Cut processing time from hours to minutes; the pipeline now runs in production"
       - "Recognized by Saama's Gen AI Practice Lead for schedule-of-activities (SOA) page detection in trial protocols"
   - company: "Code Ninjas"
-    position: "Code Sensei (Volunteer to Lead Instructor)"
+    position: "Code Sensei (Lead Instructor)"
     startDate: "Grade 10"
     endDate: "Present"
-    summary: "Teach programming to 50+ K-8 students."
+    summary: "Teach programming to K-8 students."
     highlights:
       - "Taught programming logic and game design in JavaScript and Scratch"
       - "Guided students through debugging and gave parents regular progress updates"
