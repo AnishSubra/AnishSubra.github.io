@@ -46,12 +46,12 @@ redirect_from:
 
 
 ### How I work
-<p>I like problems I can test against real data. I pick up new tools quickly, from R and Unix on a supercomputer to Salesforce exports, and I care about checking results before I trust them. Teaching has shaped how I work too: explaining code to K-8 students at Code Ninjas and to first-time programmers in Tamil Nadu taught me to break a hard idea into steps someone else can follow.</p>
+<p>I work best on problems I can test against real data. I start by dissecting a problem into its parts and sequencing the work so each stage can be verified before the next begins. From there, I construct the solution, rigorously validate it for accuracy, and optimize it for performance until it holds up under conditions it was not designed for. I do not consider work finished until it survives outside scrutiny. I also value explaining complex systems clearly, because a solution only creates impact when others can evaluate, adopt, and build on it.</p>
 
 ## Connect
 <ul>
   {% if author.website %}<li>Website: <a href="{{ author.website }}">{{ author.website }}</a></li>{% endif %}
-  {% if author.email %}<li>Email: <a href="mailto:{{ author.email }}">{{ author.email }}</a></li>{% endif %}
+  {% if author.email %}<li>Contact: <a href="mailto:{{ author.email }}">{{ author.email }}</a></li>{% endif %}
   {% if site.data['portfolio-data'].profiles %}
     {% for profile in site.data['portfolio-data'].profiles %}
       <li><a href="{{ profile.url }}">{{ profile.network }}</a></li>
