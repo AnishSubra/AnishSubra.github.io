@@ -81,9 +81,6 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ education.institution }}</div>
-          {% if education.gpa %}
-          <div class="cv-item-detail">GPA: {{ education.gpa }}</div>
-          {% endif %}
           {% if education.courses.size > 0 %}
           <div class="cv-item-detail">
             <strong>Completed Courses:</strong> {{ education.courses | join: ", " }}
@@ -358,18 +355,6 @@
     </div>
     <div class="cv-item">
       <div class="cv-item-header">
-        <div class="cv-item-title">Lead Web Designer</div>
-        <div class="cv-item-date">Lift &amp; Shift Foundation · Grades 11–12</div>
-      </div>
-      <div class="cv-item-content">
-        <ul class="cv-highlights">
-          <li>Built browser-based games and coded UI in HTML and JavaScript for a nonprofit serving veterans</li>
-          <li>Deployed the codebase to live hosting, refined site themes, and provided tech support</li>
-        </ul>
-      </div>
-    </div>
-    <div class="cv-item">
-      <div class="cv-item-header">
         <div class="cv-item-title">Club Leader</div>
         <div class="cv-item-date">Kiva Club, Stevenson High School · Grades 9–12</div>
       </div>
@@ -407,28 +392,6 @@
       </div>
       <div class="cv-item-content">
         <ul class="cv-highlights">
-        </ul>
-      </div>
-    </div>
-    <div class="cv-item">
-      <div class="cv-item-header">
-        <div class="cv-item-title">Recognition from Saama's Gen AI Practice Lead</div>
-        <div class="cv-item-date">Saama Technologies · Grade 12</div>
-      </div>
-      <div class="cv-item-content">
-        <ul class="cv-highlights">
-          <li>For SOA page detection in clinical trial protocols</li>
-        </ul>
-      </div>
-    </div>
-    <div class="cv-item">
-      <div class="cv-item-header">
-        <div class="cv-item-title">Published in Curieux Academic Review</div>
-        <div class="cv-item-date">Grade 11</div>
-      </div>
-      <div class="cv-item-content">
-        <ul class="cv-highlights">
-          <li>ML study on diabetes risk prediction, March 2026</li>
         </ul>
       </div>
     </div>

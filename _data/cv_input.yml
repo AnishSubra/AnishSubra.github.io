@@ -8,7 +8,7 @@ basics:
   email: "anishsubra@gmail.com"
   phone: ""
   website: "https://AnishSubra.github.io"
-  summary: "High school researcher at Adlai E. Stevenson High School building machine learning and data tools for biology and healthcare. Published author on diabetes risk prediction; built a clinical trial AI pipeline now in production at Saama Technologies; co-founder of The Compute Initiative, which teaches computer science at rural schools in Tamil Nadu, India."
+  summary: "High school researcher at Adlai E. Stevenson High School applying machine learning and data science to biology and healthcare, with work spanning peer-reviewed research, genomic analysis, and AI tools for clinical research in industry. Co-founder of The Compute Initiative (TCi)."
   location:
     city: "Buffalo Grove"
     region: "Illinois"
@@ -27,21 +27,24 @@ education:
     studyType: "High School"
     startDate: "2023"
     endDate: "2027"
-    gpa: ""        # add GPA if Anish wants it shown
     courses: []    # add completed courses, e.g. ["AP Computer Science A", "AP Calculus BC"]
   - institution: "University of Chicago Summer Session"
     area: "Mathematical and Computational Research in Biological Sciences"
     studyType: "Pre-College"
     startDate: "2026"
     endDate: "Summer 2026"
-    gpa: ""
     courses: []
   - institution: "Brown University Pre-College"
     area: "AI, Data Science and Machine Learning"
     studyType: "Pre-College"
     startDate: "2025"
     endDate: "Summer 2025"
-    gpa: ""
+    courses: []
+  - institution: ""    # add the school or program that offered the course
+    area: "Introduction to Biotechnology"
+    studyType: "Summer Course"
+    startDate: "2025"
+    endDate: "Summer 2025"
     courses: []
 
 work:
@@ -52,16 +55,23 @@ work:
     summary: "Built AI tools for clinical trial data validation on Saama's clinical trial platform."
     highlights:
       - "Designed AI protocol extraction and a tool to map and validate study data against USDM (Unified Study Definitions Model)"
-      - "Cut processing time from hours to minutes; the pipeline now runs in production"
+      - "Reduced processing time from hours to minutes"
       - "Recognized by Saama's Gen AI Practice Lead for schedule-of-activities (SOA) page detection in trial protocols"
+  - company: "Lift & Shift Foundation"
+    position: "Lead Web Designer (Intern)"
+    startDate: "Summer 2025"
+    endDate: "Present"
+    summary: "Build and maintain the website of a nonprofit that supports veterans moving from military service to civilian life through STEM and recreation."
+    highlights:
+      - "Built browser-based games, including a recreation of 2048, and coded UI in HTML and JavaScript"
+      - "Deployed the codebase to live hosting, refined site themes, and provide tech support"
   - company: "Code Ninjas"
     position: "Code Sensei (Lead Instructor)"
     startDate: "Feb 2025"
     endDate: "Present"
-    summary: "Teach programming to K-8 students."
+    summary: "Teach programming logic and game design to K-8 students in JavaScript and Scratch."
     highlights:
-      - "Taught programming logic and game design in JavaScript and Scratch"
-      - "Guided students through debugging and gave parents regular progress updates"
+      - "Guide students through debugging and give parents regular progress updates"
 
 skills:
   - name: "Machine Learning & Data Science"
@@ -92,24 +102,6 @@ skills:
       - "Salesforce"
 
 projects:
-  - name: "Pompe Disease Variant Analysis (UChicago)"
-    description: "Analyzed real human exome data on the Midway3 supercomputer and identified a GAA mutation linked to Pompe disease."
-    highlights:
-      - "Wrote R and Unix workflows and submitted SLURM jobs on Midway3"
-      - "Ran sequence alignment, called SNPs and indels, and annotated variants with ANNOVAR"
-      - "Visualized protein structure in VMD and presented a research poster"
-    keywords:
-      - "Genomics"
-      - "R"
-      - "High-Performance Computing"
-  - name: "Spotify-Style Music Recommender (Brown)"
-    description: "Capstone project combining collaborative and content-based filtering."
-    highlights:
-      - "Built the recommender in Python and analyzed real-world data in R"
-    keywords:
-      - "Python"
-      - "R"
-      - "Recommender Systems"
   - name: "GiGi's Playhouse Donor Campaign"
     description: "Lead technology developer for a nonprofit supporting families of people with Down syndrome."
     highlights:
@@ -125,4 +117,4 @@ publications:
     publisher: "Curieux Academic Review, Issue 5 Part 2, p. 318"
     releaseDate: "March 2026"
     website: "https://www.curieuxreview.com/_files/ugd/60ed3c_568b41b466dc44cead5239d74e979263.pdf"
-    summary: "Sole author. Compared logistic regression, random forest, and neural network models on roughly 253,680 patient records; the neural network performed best (AUROC 0.833). Mentored by Dr. Jeremy Bigness (PhD, Computational Biology); peer-review revisions with Dr. Daniel Plymire."
+    summary: "Sole author. Neural network achieved the highest AUROC (0.833) and AUPRC (0.432). Mentored by Dr. Jeremy Bigness (PhD, Computational Biology); peer reviewed by Daniel Plymire, PhD, Research Scientist and Grant Writer, University of Texas at Arlington."
