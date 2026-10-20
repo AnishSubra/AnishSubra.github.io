@@ -8,7 +8,7 @@ basics:
   email: "anishsubra@gmail.com"
   phone: ""
   website: "https://AnishSubra.github.io"
-  summary: "High school researcher at Adlai E. Stevenson High School applying machine learning and data science to biology and healthcare, with work spanning peer-reviewed research, genomic analysis, and AI tools for clinical research in industry. Co-founder of The Compute Initiative (TCi)."
+  summary: "Adlai E. Stevenson High School student and emerging researcher in machine learning for biology and healthcare. Published peer-reviewed research, analyzed genomic data, and built AI tools for clinical research. Aspires to become a computational biologist who applies data and AI to develop new solutions to health problems. Co-founder of The Compute Initiative (TCI)."
   location:
     city: "Buffalo Grove"
     region: "Illinois"
@@ -99,7 +99,6 @@ skills:
       - "HTML"
       - "Unix"
       - "GitHub"
-      - "Salesforce"
 
 projects:
   - name: "GiGi's Playhouse Donor Campaign"

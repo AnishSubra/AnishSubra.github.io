@@ -15,7 +15,6 @@ author_profile: true
   {% for item in portfolio_items %}
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       <h2 class="archive__item-title">{% if item.url != "" %}<a href="{{ item.url }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</h2>
-      <p><strong>{{ item.category }}</strong>{% if item.date %} · {{ item.date | date: "%Y" }}{% endif %}</p>
       <p>{{ item.description }}</p>
     </article>
   {% endfor %}
